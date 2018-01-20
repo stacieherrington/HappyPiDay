@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Happy Pi Day</string>
+    <string name="greeting">Happy Pi Day, Curtis!</string>
+    <string name="closing">Love, Stacie</string>
+    <string name="message">Thanks for being my constant.</string>
+    <string name="image_description">paper cut-outs of pi symbol and watercolor butterfly</string>
 </resources>

@@ -11,13 +11,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
+        android:contentDescription="@string/image_description"
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Happy Pi Day, Curtis!"
-        android:textColor="#EDE7F6"
+        android:text="@string/greeting"
+        android:textColor="@color/text"
         android:textSize="20sp"
         android:layout_centerHorizontal="true"
         android:padding="64dp"
@@ -26,9 +27,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Love, Stacie"
-        android:textColor="#EDE7F6"
-        android:layout_alignParentBottom="true"
+        android:text="@string/closing"
+        android:textColor="@color/text"        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:paddingBottom="64dp"
         android:paddingRight="120dp"
@@ -37,11 +37,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Thanks for being my constant."
+        android:text="@string/message"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:paddingBottom="160dp"
-        android:textColor="#EDE7F6"
+        android:textColor="@color/text"
 
         />
 
